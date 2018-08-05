@@ -7,6 +7,7 @@ public class FactorialTest {
 	
 		Factorial factorial = new Factorial();
 		
+		//Using try catch for any exception
 		try{
 			int a = factorial.getfactorial(n);
 			System.out.println(a);
